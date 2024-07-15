@@ -14,7 +14,7 @@ export const Skills = () => {
         <div>
             <span className="text-3xl">My Skills</span> <br />
 
-            <span className="mt-24"></span>
+             <span className="mt-24"></span>
             <div className="grid grid-cols-4 gap-4 mx-2">
               <img className="w-16" src="html-5.svg" alt="HTML5"                  />
               <img className="w-16" src="css-3.svg" alt="CSS3"                    />
