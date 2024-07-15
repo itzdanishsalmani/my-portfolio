@@ -8,7 +8,6 @@ export const About = () => {
         <div className="mt-12 text-lg">
             Here you will find more information about me, what I do, and my current skills mostly in terms
             of programming and technology
-
         </div>
       </div>
         </div>

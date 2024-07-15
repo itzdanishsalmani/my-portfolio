@@ -1,8 +1,10 @@
-"use client"
 import React from "react"
-import { Button } from "./buttons"
+import { ProjectCard } from "./ProjectCard"
 
 export const Col2 = () => {
+    const buttons1 = ["React", "Express", "MongoDB Atlas", "Node.js", "JavaScript", "Tailwind CSS", "Vercel", "PayPal API", "Vercel"];
+    const buttons2 = ["TypeScript", "React", "Hono", "Postgresql", "Prisma ORM", "Tailwind CSS","Vercel", "Cloudflare workers" ]
+    const buttons3 = ["React", "Express", "MongoDB Atlas", "Node.js", "JavaScript", "Tailwind CSS", "Vercel"]
     return (
         <div className="mr-36 ">
             <div id="about" className="mt-24 font-mono text-slate-400">
@@ -14,27 +16,32 @@ export const Col2 = () => {
             </div>
 
             <div id="projects" className="mt-16">
-                <a href="http://hyperdev.vercel.app" target="_blank">
-                <div className="p-2 cursor-pointer hover:bg-slate-800 rounded-lg">
-                <div className="text-white">HyperDev - Course selling web application
-                    <div className="text-slate-400">
-                        It is a Full Stack responsive web application in MERN Stack with PayPal Payment Gateway, where Admin can
-                        perform CRUD operation and user can pay and buy courses.
-                        <div className="flex flex-wrap space-x-2 mt-2">
-                        <Button input="React"/>
-                        <Button input="Express"/>
-                        <Button input="MongoDB"/>
-                        <Button input="Node.js"/>
-                        <Button input="JavaScript"/>
-                        <Button input="Tailwind CSS"/>
-                        <br /><br />
-                        <Button input="Vercel"/>
-                        <Button input="PayPal API"/>
-                    </div>
-                    </div>
-                    </div>
-                </div>
-                </a>
+            <ProjectCard
+                liveLink="https://hyperdev.vercel.app"
+                image="/hyperdev.png"
+                title="HyperDev - Course selling web application"
+                description="It is a Full Stack responsive web application in MERN Stack with PayPal Payment Gateway, where Admin can
+                perform CRUD operation and user can pay and buy courses."
+                buttons={buttons1}
+            />
+                
+            <ProjectCard
+                liveLink="https://mediumm.vercel.app"
+                image="/mediumm.png"
+                title="Mediumm - Blogging web application"
+                description="Develop a full-stack responsive web app where authenticated users can create and update blog posts with descriptions."
+                buttons={buttons2}
+            />
+                
+            <ProjectCard
+                liveLink="https://payze.vercel.app"
+                image="/payze.png"
+                title="Payze - Online payment web application"
+                description="It is an online payment web application in MERN Stack
+                where users can send payment to each other with virtual money."
+                buttons={buttons3}
+            />
+
             </div>
         </div>
     )
