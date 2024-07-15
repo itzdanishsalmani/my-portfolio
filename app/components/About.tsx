@@ -1,7 +1,7 @@
 export const About = () => {
     return (
         <div>
-            <div className="flex flex-col items-center justify-center">
+            <div className="text-white flex flex-col items-center justify-center">
         <div className="text-3xl">
             ABOUT ME
         </div>

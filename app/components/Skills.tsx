@@ -1,7 +1,7 @@
 export const Skills = () => {
     return (
         <div>
-       <div className="px-12 grid grid-cols-2 mt-24 ">
+       <div className="text-white px-12 grid grid-cols-2 mt-24 ">
 
         <div className=" pr-12">
             <span className="text-3xl">Get to know me!</span> <br/>
@@ -15,7 +15,7 @@ export const Skills = () => {
             <span className="text-3xl">My Skills</span> <br />
 
             <span className="mt-24"></span>
-            <div className="grid grid-cols-4 gap-4 bg-gray-500 mx-2">
+            <div className="grid grid-cols-4 gap-4 mx-2">
               <img className="w-16" src="html-5.svg" alt="HTML5"                  />
               <img className="w-16" src="css-3.svg" alt="CSS3"                    />
               <img className="w-16" src="tailwindcss-icon.svg" alt="Tailwind CSS" />

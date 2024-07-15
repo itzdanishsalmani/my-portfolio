@@ -1,7 +1,7 @@
 export const Main = () =>{
     return (
         <div>
-                 <div className="flex flex-col items-center justify-center h-screen  ">
+                 <div className="text-white flex flex-col items-center justify-center h-screen  ">
         <div className="text-6xl font-medium">
         HEY, I'M MOHAMMED DANISH
     </div>
