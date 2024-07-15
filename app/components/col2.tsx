@@ -16,7 +16,7 @@ export const Col2 = () => {
             </div>
 
             <div id="skills" className="mt-24 p-4 rounded-lg hover:bg-slate-800">
-            <div className="grid grid-cols-5 gap-4">
+            <div className="grid grid-cols-5 items-center  gap-4">
               <img className="w-10" src="html-5.svg" alt="HTML5"                  />
               <img className="w-10" src="css-3.svg" alt="CSS3"                    />
               <img className="w-10" src="tailwindcss-icon.svg" alt="Tailwind CSS" />
@@ -24,7 +24,7 @@ export const Col2 = () => {
               <img className="w-10" src="typescript-icon.svg" alt="TypeScript"    />
               <img className="w-10" src="react.svg" alt="React"                   />
               <img className="w-10" src="nodejs.svg" alt="Node.js"                />
-              <img className="h-10" src="mongodb.svg" alt="MongoDB"               />
+              <img className="h-10" src="mongodb-icon.svg" alt="MongoDB"          />
               <img className="w-10" src="postgresql.svg" alt="PostgreSQL"         />
               <img className="w-10" src="docker-icon.svg" alt="Docker"            />
               <img className="w-10" src="prisma.svg" alt="Prisma"                 />
