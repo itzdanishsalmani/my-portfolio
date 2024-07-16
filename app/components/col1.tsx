@@ -10,13 +10,13 @@ export const Col1 = () =>{
     </div>
 
     <div className="mt-4 text-slate-400">
-        I build full stack applications
+        I build full stack application
     </div>
 
     <div className="mt-24 text-slate-500">
-        <div className="pt-4">ABOUT</div>
-        <div className="pt-4">SKILLS</div>
-        <div className="pt-4">PROJECTS</div>
+        <div className="pt-4"><a href="#about">ABOUT</a></div>
+        <div className="pt-4"><a href="#skills">SKILLS</a></div>
+        <div className="pt-4"><a href="#projects">PROJECTS</a></div>
     </div>
     </div>
      </div>

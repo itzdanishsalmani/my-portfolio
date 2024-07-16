@@ -1,10 +1,16 @@
 import React from "react"
 import { ProjectCard } from "./ProjectCard"
+import { Span } from "./buttons";
 
 export const Col2 = () => {
     const buttons1 = ["React", "Express", "MongoDB Atlas", "Node.js", "JavaScript", "Tailwind CSS", "Vercel", "PayPal API", "Vercel"];
     const buttons2 = ["TypeScript", "React", "Hono", "Postgresql", "Prisma ORM", "Tailwind CSS","Vercel", "Cloudflare workers" ]
     const buttons3 = ["React", "Express", "MongoDB Atlas", "Node.js", "JavaScript", "Tailwind CSS", "Vercel"]
+    
+    interface Icon {
+        src:string;
+        alt:string;
+    }
     const icons: Icon[] = [
         { src: "html-5.svg", alt: "HTML5" },
         { src: "css-3.svg", alt: "CSS3" },
@@ -25,7 +31,7 @@ export const Col2 = () => {
     return (
         <div className="mr-36">
             <div id="about" className="mt-24 font-mono text-slate-400">
-                Hello! I'm Mohammed Danish, a passionate and dedicated developer. My expertise lies in the MERN stack, TypeScript, and PostgreSQL. With a strong foundation in these technologies, I have successfully built three full-stack projects, showcasing my ability to develop robust and scalable web applications.
+                I'm a passionate and dedicated developer. My expertise lies in the <Span input="MERN stack"/>, <Span input=" TypeScript"/>, and <Span input="PostgreSQL" />. With a strong foundation in these technologies, I have successfully built three full-stack projects, showcasing my ability to develop robust and scalable web applications.
                 <br /><br />
                 I thrive on solving complex problems and continuously improving my skills. My journey in web development has equipped me with the knowledge and experience to create efficient and user-friendly solutions. I am always eager to learn new technologies and take on challenging projects.
                 <br /><br />
@@ -67,6 +73,10 @@ export const Col2 = () => {
                 buttons={buttons3}
             />
 
+            </div>
+
+            <div className="my-24 text-slate-400 text-sm">
+            Coded in <Span input="Visual Studio Code"/> by yours truly. Built with <Span input="Next.js"/> and <Span input="Tailwind CSS"/>, deployed with <span className="text-slate-300">Vercel.</span>
             </div>
         </div>
     )
