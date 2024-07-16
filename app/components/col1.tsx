@@ -1,3 +1,5 @@
+import { Transition } from "./ProjectCard"
+
 export const Col1 = () =>{
     return (
         <div>
@@ -14,10 +16,19 @@ export const Col1 = () =>{
     </div>
 
     <div className="mt-24 text-slate-500 flex flex-col items-start">
-        <div className="flex flex-row items-center hover:text-white "><hr className=" w-8 mr-4" /><a href="#about">ABOUT</a></div>
-        <div className="flex flex-row items-center hover:text-white "><hr className=" w-8 mr-4" /><a href="#skills">SKILLS</a></div>
-        <div className="flex flex-row items-center hover:text-white "><hr className=" w-8 mr-4" /><a href="#projects">PROJECTS</a></div>
+
+        <Transition input="ABOUT" id="#about" />
+        <Transition input="SKILLS" id="#skills" />
+        <Transition input="PROJECTS" id="#projects" />
+    
     </div>
+
+        <div className="mt-12 flex space-x-4">
+            <img src="github.png" alt="" className="  w-8 rounded-full" />
+            <img src="linkedin.png" alt="" className=" w-8 rounded-lg" />
+            <img src="twitter.png" alt="" className="  w-8 rounded-lg" />
+            <img src="mail.png" alt="" className="  w-8 rounded-lg" />
+        </div>
     </div>
     </div>
     )

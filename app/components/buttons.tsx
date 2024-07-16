@@ -1,7 +1,5 @@
 "use client"
 
-import { SoaRecord } from "dns";
-
 interface ButtonProps {
     input: string;
 }

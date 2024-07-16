@@ -39,3 +39,16 @@ export const ProjectCard:React.FC<ProjectCardProps> = ({liveLink ,image,title,de
         </div>
     )
 }
+
+interface TransitionProps {
+    id: string;
+    input:string;
+}
+export const Transition:React.FC<TransitionProps> = ({id,input}) => {
+    return (
+        <div className="mt-4 flex cursor-pointer flex-row items-center group">
+        <hr className=" w-8 mr-4  transition-all duration-300 group-hover:w-16" />
+        <a href={id} className="group-hover:text-white transition-all duration-300">{input}</a></div>
+
+    )
+}

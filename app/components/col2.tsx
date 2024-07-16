@@ -46,6 +46,10 @@ export const Col2 = () => {
               </div>
             </div>
 
+            <div className="mt-24 cursor-pointer text-white hover:text-emerald-600">
+                <a href="https://drive.google.com/file/d/1uACrjuC5Ui_ZSM2-tITuivJUK2Ifvx_1/view" target="_blank"> View Full Resume </a>
+            </div>
+
             <div id="projects" className="mt-24">
             <ProjectCard
                 liveLink="https://hyperdev.vercel.app"
