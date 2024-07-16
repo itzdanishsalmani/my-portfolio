@@ -5,6 +5,23 @@ export const Col2 = () => {
     const buttons1 = ["React", "Express", "MongoDB Atlas", "Node.js", "JavaScript", "Tailwind CSS", "Vercel", "PayPal API", "Vercel"];
     const buttons2 = ["TypeScript", "React", "Hono", "Postgresql", "Prisma ORM", "Tailwind CSS","Vercel", "Cloudflare workers" ]
     const buttons3 = ["React", "Express", "MongoDB Atlas", "Node.js", "JavaScript", "Tailwind CSS", "Vercel"]
+    const icons: Icon[] = [
+        { src: "html-5.svg", alt: "HTML5" },
+        { src: "css-3.svg", alt: "CSS3" },
+        { src: "tailwindcss-icon.svg", alt: "Tailwind CSS" },
+        { src: "javascript.svg", alt: "JavaScript" },
+        { src: "typescript-icon.svg", alt: "TypeScript" },
+        { src: "react.svg", alt: "React" },
+        { src: "nodejs.svg", alt: "Node.js" },
+        { src: "mongodb-icon.svg", alt: "MongoDB" },
+        { src: "postgresql.svg", alt: "PostgreSQL" },
+        { src: "docker-icon.svg", alt: "Docker" },
+        { src: "prisma.svg", alt: "Prisma" },
+        { src: "git-icon.svg", alt: "Git" },
+        { src: "github-icon.svg", alt: "GitHub" },
+        { src: "nextjs-icon.svg", alt: "Next.js" },
+        { src: "aws.svg", alt: "AWS" },
+    ];
     return (
         <div className="mr-36">
             <div id="about" className="mt-24 font-mono text-slate-400">
@@ -16,23 +33,11 @@ export const Col2 = () => {
             </div>
 
             <div id="skills" className="mt-24 p-4 rounded-lg hover:bg-slate-800">
-            <div className="grid grid-cols-5 items-center  gap-4">
-              <img className="w-10" src="html-5.svg" alt="HTML5"                  />
-              <img className="w-10" src="css-3.svg" alt="CSS3"                    />
-              <img className="w-10" src="tailwindcss-icon.svg" alt="Tailwind CSS" />
-              <img className="w-10" src="javascript.svg" alt="JavaScript"         />
-              <img className="w-10" src="typescript-icon.svg" alt="TypeScript"    />
-              <img className="w-10" src="react.svg" alt="React"                   />
-              <img className="w-10" src="nodejs.svg" alt="Node.js"                />
-              <img className="h-10" src="mongodb-icon.svg" alt="MongoDB"          />
-              <img className="w-10" src="postgresql.svg" alt="PostgreSQL"         />
-              <img className="w-10" src="docker-icon.svg" alt="Docker"            />
-              <img className="w-10" src="prisma.svg" alt="Prisma"                 />
-              <img className="w-10" src="git-icon.svg" alt="Git"                  />
-              <img className="w-10" src="github-icon.svg" alt="GitHub"            />
-              <img className="w-10" src="nextjs-icon.svg" alt="Nextjs"            />
-              <img className="w-10" src="aws.svg" alt="AWS"               />
-            </div>
+            <div className="grid grid-cols-5 items-center gap-4 cursor-pointer">
+            {icons.map((icon, index) => (
+                    <img key={index} className="w-12 h-20" src={icon.src} alt={icon.alt} />
+                ))}
+              </div>
             </div>
 
             <div id="projects" className="mt-24">
