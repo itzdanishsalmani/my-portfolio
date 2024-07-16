@@ -13,12 +13,12 @@ export const Col1 = () =>{
         I build full stack application
     </div>
 
-    <div className="mt-24 text-slate-500">
-        <div className="pt-4"><a href="#about">ABOUT</a></div>
-        <div className="pt-4"><a href="#skills">SKILLS</a></div>
-        <div className="pt-4"><a href="#projects">PROJECTS</a></div>
+    <div className="mt-24 text-slate-500 flex flex-col items-start">
+        <div className="flex flex-row items-center hover:text-white "><hr className=" w-8 mr-4" /><a href="#about">ABOUT</a></div>
+        <div className="flex flex-row items-center hover:text-white "><hr className=" w-8 mr-4" /><a href="#skills">SKILLS</a></div>
+        <div className="flex flex-row items-center hover:text-white "><hr className=" w-8 mr-4" /><a href="#projects">PROJECTS</a></div>
     </div>
     </div>
-     </div>
+    </div>
     )
 }
