@@ -1,14 +1,39 @@
 "use client"
-import React from "react";
-import { Button } from "./buttons";
 import Image from "next/image";
+ interface ButtonProps {
+    input: string;
+}
 
-interface ProjectCardProps {
+ interface SpanProps {
+    input: string
+}
+
+ interface ProjectCardProps {
     liveLink: string;
     image: string;
     title: string;
     description: string;
     buttons: string[];
+}
+
+ interface TransitionProps {
+    id: string;
+    input: string;
+}
+
+
+export const Span:React.FC<SpanProps> = ({input}) => {
+    return (
+        <span className="text-slate-300">{input}</span>
+    )
+}
+
+export const Button: React.FC<ButtonProps> = ({ input }) => {
+    return (
+        <div>
+            <button className="bg-emerald-900 text-cyan-400 rounded-full px-2 py-1.5 text-sm" >{input}</button>
+        </div>
+    )
 }
 
 export const ProjectCard: React.FC<ProjectCardProps> = ({ liveLink, image, title, description, buttons }) => {
@@ -35,11 +60,6 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ liveLink, image, title
         </div>
     );
 };
-
-interface TransitionProps {
-    id: string;
-    input: string;
-}
 
 export const Transition: React.FC<TransitionProps> = ({ id, input }) => {
     return (

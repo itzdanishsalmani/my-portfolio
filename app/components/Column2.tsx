@@ -1,6 +1,6 @@
 import React from "react"
-import { ProjectCard } from "./ProjectCard"
-import { Span } from "./buttons";
+import { ProjectCard } from "./Units"
+import { Span } from "./Units";
 import Image from "next/image";
 
 export const Col2 = () => {
@@ -30,21 +30,20 @@ export const Col2 = () => {
         { src: "aws.svg", alt: "AWS" },
     ];
     return (
-        <div className="mx-4 md:mr-36 ">
-            <div id="about" className="mt-24 font-mono text-slate-400">
-    I&apos;m a passionate and dedicated developer. My expertise lies in the <Span input="MERN stack"/>, <Span input=" TypeScript"/>, and <Span input="PostgreSQL" />. With a strong foundation in these technologies, I have successfully built three full-stack projects, showcasing my ability to develop robust and scalable web applications.
-    <br /><br />
-    I thrive on solving complex problems and continuously improving my skills. My journey in web development has equipped me with the knowledge and experience to create efficient and user-friendly solutions. I am always eager to learn new technologies and take on challenging projects.
-    <br /><br />
-    Whether it&apos;s developing dynamic front-end interfaces or designing efficient back-end architectures, I bring a meticulous and innovative approach to my work. I am committed to delivering high-quality code and collaborating effectively with teams to achieve project goals.
-</div>
-
+        <div className="font-mono mx-4 md:mr-36 ">
+            <div id="about" className="mt-24 text-slate-400">
+                I'm a passionate and dedicated developer. My expertise lies in the <Span input="MERN stack"/>, <Span input=" TypeScript"/>, and <Span input="PostgreSQL" />. With a strong foundation in these technologies, I have successfully built three full-stack projects, showcasing my ability to develop robust and scalable web applications.
+                <br /><br />
+                I thrive on solving complex problems and continuously improving my skills. My journey in web development has equipped me with the knowledge and experience to create efficient and user-friendly solutions. I am always eager to learn new technologies and take on challenging projects.
+                <br /><br />
+                Whether it's developing dynamic front-end interfaces or designing efficient back-end architectures, I bring a meticulous and innovative approach to my work. I am committed to delivering high-quality code and collaborating effectively with teams to achieve project goals.
+            </div>
 
             <div id="skills" className="mt-24 p-4 rounded-lg hover:bg-slate-800">
             <div className="grid grid-cols-5 items-center gap-4 cursor-pointer">
             {icons.map((icon, index) => (
-    <Image key={index} className="w-12 h-20" src={`/${icon.src}`} alt={icon.alt} width={48} height={80} />
-))}
+                    <img key={index} className="w-12 h-20" src={icon.src} alt={icon.alt} />
+                ))}
               </div>
             </div>
 
@@ -82,8 +81,7 @@ export const Col2 = () => {
             </div>
 
             <div className="my-24 text-slate-400 text-sm">
-            Coded in <Span input="Visual Studio Code"/> by yours truly. Built with <Span input="Next.js"/> and <Span input="Tailwind CSS"/>, deployed with <span className="text-slate-300">Vercel.</span>
-            </div>
+            Coded in <a href="https://code.visualstudio.com/"><Span input="Visual Studio Code"/></a> by yours truly. Built with <a href="https://nextjs.org/"><Span input="Next.js"/></a> and <a href="https://tailwindcss.com/"><Span input="Tailwind CSS"/></a>, deployed with <a href="https://vercel.com/"><span className="text-slate-300">Vercel.</span></a>         </div>
         </div>
     )
 }

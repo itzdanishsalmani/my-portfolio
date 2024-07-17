@@ -1,5 +1,5 @@
-import { Col1 } from "./components/col1";
-import { Col2 } from "./components/col2"
+import { Col1 } from "./components/Column1";
+import { Col2 } from "./components/Column2"
 export default function Home() {
   return (
     <div className="grid md:grid-cols-2">
