@@ -1,6 +1,7 @@
 import React from "react"
 import { ProjectCard } from "./ProjectCard"
 import { Span } from "./buttons";
+import Image from "next/image";
 
 export const Col2 = () => {
     const buttons1 = ["React", "Express", "MongoDB Atlas", "Node.js", "JavaScript", "Tailwind CSS", "Vercel", "PayPal API", "Vercel"];
@@ -41,7 +42,7 @@ export const Col2 = () => {
             <div id="skills" className="mt-24 p-4 rounded-lg hover:bg-slate-800">
             <div className="grid grid-cols-5 items-center gap-4 cursor-pointer">
             {icons.map((icon, index) => (
-                    <img key={index} className="w-12 h-20" src={icon.src} alt={icon.alt} />
+                    <Image key={index} className="w-12 h-20" src={icon.src} alt={icon.alt} />
                 ))}
               </div>
             </div>

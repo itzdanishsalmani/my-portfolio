@@ -1,4 +1,5 @@
 import { Transition } from "./ProjectCard"
+import Image from "next/image"
 
 export const Col1 = () =>{
     return (
@@ -25,10 +26,10 @@ export const Col1 = () =>{
 
         <div className="mt-12 flex space-x-4">
             
-            <a href="https://github.com/itzdanishsalmani" target="_blank"> <img src="github.png" alt="" className="  w-8 rounded-full" /></a>
-            <a href="https://www.linkedin.com/in/mohammed-danish-salmani-ab2586258/" target="_blank"> <img src="linkedin.png" alt="" className=" w-8 rounded-lg" /></a>
-            <a href="https://x.com/itzzdanish" target="_blank"> <img src="twitter.png" alt="" className="  w-8 rounded-lg" /></a>
-            <a href="https://mailto:salmanidanish488@gmail.com" target="_blank"> <img src="mail.png" alt="" className="  w-8 rounded-lg" /></a>
+            <a href="https://github.com/itzdanishsalmani" target="_blank"> <Image src="github.png" alt="" className="  w-8 rounded-full" /></a>
+            <a href="https://www.linkedin.com/in/mohammed-danish-salmani-ab2586258/" target="_blank"> <Image src="linkedin.png" alt="" className=" w-8 rounded-lg" /></a>
+            <a href="https://x.com/itzzdanish" target="_blank"> <Image src="twitter.png" alt="" className="  w-8 rounded-lg" /></a>
+            <a href="https://mailto:salmanidanish488@gmail.com" target="_blank"> <Image src="mail.png" alt="" className="  w-8 rounded-lg" /></a>
         </div>
     </div>
     </div>
