@@ -1,14 +1,15 @@
 "use client"
 import Image from "next/image";
- interface ButtonProps {
+
+interface ButtonProps {
     input: string;
 }
 
- interface SpanProps {
+interface SpanProps {
     input: string
 }
 
- interface ProjectCardProps {
+interface ProjectCardProps {
     liveLink: string;
     image: string;
     title: string;
@@ -16,11 +17,26 @@ import Image from "next/image";
     buttons: string[];
 }
 
- interface TransitionProps {
+interface TransitionProps {
     id: string;
     input: string;
 }
 
+interface ContactProps {
+    link: string;
+    src: string;
+    alt:string;
+}
+
+export const Contact:React.FC<ContactProps> = ({link,src,alt}) => {
+    return (
+        <div>
+            <a href={link} target="_blank">
+                        <Image src={src} width={25} height={25} alt={alt} className="rounded-full" />
+                    </a>
+        </div>
+    )
+}
 
 export const Span:React.FC<SpanProps> = ({input}) => {
     return (
@@ -63,7 +79,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ liveLink, image, title
 
 export const Transition: React.FC<TransitionProps> = ({ id, input }) => {
     return (
-        <div className="mt-4 flex cursor-pointer flex-row items-center group">
+        <div className="mt-4 flex cursor-pointer flex-row items-center group ">
             <hr className="w-8 mr-4 transition-all duration-300 group-hover:w-16" />
             <a href={id} className="group-hover:text-white transition-all duration-300">{input}</a>
         </div>
