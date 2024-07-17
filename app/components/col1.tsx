@@ -3,15 +3,15 @@ import { Transition } from "./ProjectCard"
 export const Col1 = () =>{
     return (
         <div>
-        <div className="ml-32 mt-24 font-mono fixed text-white">
-        <div className="text-4xl font-bold">
+        <div className="md:ml-32 md:fixed ml-4 mt-24 font-mono text-white">
+        <div className="md:text-4xl text-2xl font-bold">
         MOHAMMED DANISH
     </div>
     <div className="mt-4 ">
         Full Stack Engineer
     </div>
 
-    <div className="mt-4 text-slate-400">
+    <div className="mt-4 text-slate-400 w-3/4">
         I build full stack application
     </div>
 
@@ -24,10 +24,11 @@ export const Col1 = () =>{
     </div>
 
         <div className="mt-12 flex space-x-4">
-            <img src="github.png" alt="" className="  w-8 rounded-full" />
-            <img src="linkedin.png" alt="" className=" w-8 rounded-lg" />
-            <img src="twitter.png" alt="" className="  w-8 rounded-lg" />
-            <img src="mail.png" alt="" className="  w-8 rounded-lg" />
+            
+            <a href="https://github.com/itzdanishsalmani" target="_blank"> <img src="github.png" alt="" className="  w-8 rounded-full" /></a>
+            <a href="https://www.linkedin.com/in/mohammed-danish-salmani-ab2586258/" target="_blank"> <img src="linkedin.png" alt="" className=" w-8 rounded-lg" /></a>
+            <a href="https://x.com/itzzdanish" target="_blank"> <img src="twitter.png" alt="" className="  w-8 rounded-lg" /></a>
+            <a href="https://mailto:salmanidanish488@gmail.com" target="_blank"> <img src="mail.png" alt="" className="  w-8 rounded-lg" /></a>
         </div>
     </div>
     </div>

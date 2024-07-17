@@ -29,7 +29,7 @@ export const Col2 = () => {
         { src: "aws.svg", alt: "AWS" },
     ];
     return (
-        <div className="mr-36">
+        <div className="mx-4 md:mr-36 ">
             <div id="about" className="mt-24 font-mono text-slate-400">
                 I'm a passionate and dedicated developer. My expertise lies in the <Span input="MERN stack"/>, <Span input=" TypeScript"/>, and <Span input="PostgreSQL" />. With a strong foundation in these technologies, I have successfully built three full-stack projects, showcasing my ability to develop robust and scalable web applications.
                 <br /><br />
