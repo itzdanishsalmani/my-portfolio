@@ -23,25 +23,25 @@ export const Col1 = () => {
                 
                 <Contact 
                     link="https://www.linkedin.com/in/mohammed-danish-salmani-ab2586258/"
-                    src="/linkedin-6-5121.png"
+                    src="/linkedin.png"
                     alt="LinkedIn" 
                 />
                 
                 <Contact 
                 link="https://x.com/itzzdanish" 
-                src="/new_twitter-x-512.png" 
+                src="/twitter.png" 
                 alt="Twitter"
                 />
                 
                 <Contact 
                     link="https://github.com/itzdanishsalmani"
-                    src="/github-9-512.png"
+                    src="/github-light.png"
                     alt="Github"               
                 />
 
                 <Contact 
                 link="mailto:salmanidanish488@gmail.com"
-                src="/email-14-512.png"
+                src="/email.png"
                 alt="Email"    
                 />
                 </div>
