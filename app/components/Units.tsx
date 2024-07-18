@@ -56,7 +56,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ liveLink, image, title
     return (
         <div>
             <a href={liveLink} target="_blank" rel="noopener noreferrer">
-                <div className="group hover:bg-slate-800 p-4 mt-12 items-center md:flex flex-cols cursor-pointer rounded-lg">
+                <div className="group hover:bg-slate-800 p-4 mt-12 cursor-pointer rounded-lg flex flex-col justify-center items-center md:flex-row md:items-start">
                     <div className="w-3/4 items-center mr-4 ">
                         <Image src={image} alt={title} width={500} height={300} className="rounded-lg" />
                     </div>
