@@ -25,7 +25,7 @@ export const Col2 = () => {
         { src: "docker-icon.svg", alt: "Docker" },
         { src: "prisma.svg", alt: "Prisma" },
         { src: "git-icon.svg", alt: "Git" },
-        { src: "github-icon.svg", alt: "GitHub" },
+        { src: "/github.png", alt: "GitHub" },
         { src: "nextjs-icon.svg", alt: "Next.js" },
         { src: "aws.svg", alt: "AWS" },
     ];

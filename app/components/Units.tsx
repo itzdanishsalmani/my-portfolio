@@ -32,7 +32,7 @@ export const Contact:React.FC<ContactProps> = ({link,src,alt}) => {
     return (
         <div>
             <a href={link} target="_blank">
-                        <Image src={src} width={25} height={25} alt={alt} className="rounded-full" />
+                        <Image src={src} width={25} height={25} alt={alt} className="" />
                     </a>
         </div>
     )
