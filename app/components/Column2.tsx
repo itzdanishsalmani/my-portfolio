@@ -4,7 +4,7 @@ import { Span } from "./Units";
 import Image from "next/image";
 
 export const Col2 = () => {
-    const buttons1 = ["React", "Express", "MongoDB Atlas", "Node.js", "JavaScript", "Tailwind CSS", "Vercel", "PayPal API", "Vercel"];
+    const buttons1 = ["React", "Express", "MongoDB Atlas", "Node.js", "JavaScript", "Tailwind CSS", "Vercel", "PayPal API", ];
     const buttons2 = ["TypeScript", "React", "Hono", "Postgresql", "Prisma ORM", "Tailwind CSS","Vercel", "Cloudflare workers"];
     const buttons3 = ["React", "Express", "MongoDB Atlas", "Node.js", "JavaScript", "Tailwind CSS", "Vercel"];
     
@@ -13,21 +13,23 @@ export const Col2 = () => {
         alt: string;
     }
     const icons: Icon[] = [
-        { src: "html-5.svg", alt: "HTML5" },
-        { src: "css-3.svg", alt: "CSS3" },
-        { src: "tailwindcss-icon.svg", alt: "Tailwind CSS" },
-        { src: "javascript.svg", alt: "JavaScript" },
+        { src: "nextjs-icon.svg", alt: "Next.js" },        
         { src: "typescript-icon.svg", alt: "TypeScript" },
+        { src: "javascript.svg", alt: "JavaScript" },
         { src: "react.svg", alt: "React" },
         { src: "nodejs.svg", alt: "Node.js" },
+
         { src: "mongodb-icon.svg", alt: "MongoDB" },
         { src: "postgresql.svg", alt: "PostgreSQL" },
         { src: "docker-icon.svg", alt: "Docker" },
         { src: "prisma.svg", alt: "Prisma" },
+        { src: "aws.svg", alt: "AWS" },
+
         { src: "git-icon.svg", alt: "Git" },
         { src: "/github.svg", alt: "GitHub" },
-        { src: "nextjs-icon.svg", alt: "Next.js" },
-        { src: "aws.svg", alt: "AWS" },
+        { src: "tailwindcss-icon.svg", alt: "Tailwind CSS" },        
+        { src: "html-5.svg", alt: "HTML5" },
+        { src: "css-3.svg", alt: "CSS3" },
     ];
     return (
         <div className="font-mono mx-4 md:mr-36 ">
