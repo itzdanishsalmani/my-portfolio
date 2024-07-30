@@ -66,7 +66,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ liveLink, image, title
                             {description}
                             <div className="flex flex-wrap space-x-2 mt-2">
                                 {buttons.map((btn, index) => (
-                                    <div key={index} className="mt-2"><Button input={btn} /></div>
+                                    <div key={index} className="mt-2  ml-2"><Button input={btn} /></div>
                                 ))}
                             </div>
                         </div>
