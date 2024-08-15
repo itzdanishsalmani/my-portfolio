@@ -4,9 +4,11 @@ import { Span } from "./Units";
 import Image from "next/image";
 
 export const Col2 = () => {
-    const buttons1 = ["React", "Express", "MongoDB Atlas", "Node.js", "JavaScript", "Tailwind CSS", "Vercel", "PayPal API", ];
+    const buttons1 = ["React", "Express", "MongoDB Atlas", "Node.js", "JavaScript", "Tailwind CSS", "Vercel", "PayPal API" ];
     const buttons2 = ["TypeScript", "React", "Hono", "Postgresql", "Prisma ORM", "Tailwind CSS","Vercel", "Cloudflare workers"];
     const buttons3 = ["React", "Express", "MongoDB Atlas", "Node.js", "JavaScript", "Tailwind CSS", "Vercel"];
+    const buttons4 = ["React", "Tailwind CSS", "Vercel"];
+    const buttons5 = ["React", "Tailwind CSS", "TypeScript", "Vercel"];
     
     interface Icon {
         src: string;
@@ -79,6 +81,23 @@ export const Col2 = () => {
                     description="It is an online payment web application in MERN Stack where users can send payment to each other with virtual money."
                     buttons={buttons3}
                 />
+
+                <ProjectCard
+                    liveLink="https://zenskar-landing-page.vercel.app/"
+                    image="/zenskar.png"
+                    title="Zenskar landing page"
+                    description="Develop a responsive landing page of zenskar.com"
+                    buttons={buttons4}
+                />
+
+                <ProjectCard
+                    liveLink="https://testimonial-ui-delta.vercel.app/"
+                    image="/testimonial.png"
+                    title="Testimonial landing page"
+                    description="Develop a responsive landing page of testimonial.to"
+                    buttons={buttons5}
+                />
+
             </div>
 
             <div className="my-24 text-slate-400 text-sm">
