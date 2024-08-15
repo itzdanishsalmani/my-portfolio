@@ -86,7 +86,7 @@ export const Col2 = () => {
                     liveLink="https://zenskar-landing-page.vercel.app/"
                     image="/zenskar.png"
                     title="Zenskar landing page"
-                    description="Develop a responsive landing page of zenskar.com"
+                    description="Develop a fully responsive and visually appealing landing page for Zenskar.com, optimized for all devices."
                     buttons={buttons4}
                 />
 
@@ -94,7 +94,7 @@ export const Col2 = () => {
                     liveLink="https://testimonial-ui-delta.vercel.app/"
                     image="/testimonial.png"
                     title="Testimonial landing page"
-                    description="Develop a responsive landing page of testimonial.to"
+                    description="Develop a fully responsive and visually appealing landing page for testimonial.to, optimized for all devices."
                     buttons={buttons5}
                 />
 
