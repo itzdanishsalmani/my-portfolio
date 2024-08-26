@@ -8,9 +8,9 @@ export const Col1 = () => {
                 <div className="md:text-4xl text-2xl font-bold">
                     MOHAMMED DANISH
                 </div>
-                <div className="mt-4 flex space-x-2 text-lg ">
-                    <div>I'm a </div>
-                    <div>
+                <div className="mt-4 flex space-x-2 text-lg">
+                    <div>I&#39;m a</div>
+                <div>
                    <TypewriterEffect />
                    </div>
                 </div>
