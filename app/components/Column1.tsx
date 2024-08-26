@@ -1,4 +1,4 @@
-import { Contact, Transition } from "./Units"
+import { Contact, Transition,TypewriterEffect } from "./Units"
 
 export const Col1 = () => {
 
@@ -8,8 +8,11 @@ export const Col1 = () => {
                 <div className="md:text-4xl text-2xl font-bold">
                     MOHAMMED DANISH
                 </div>
-                <div className="mt-4">
-                    Full Stack Developer
+                <div className="mt-4 flex space-x-2 text-lg ">
+                    <div>I'm a </div>
+                    <div>
+                   <TypewriterEffect />
+                   </div>
                 </div>
                 <div className="mt-4 text-slate-400">
                     I build full stack applications

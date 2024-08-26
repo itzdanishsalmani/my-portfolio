@@ -1,5 +1,6 @@
 "use client"
 import Image from "next/image";
+import Typewriter from "typewriter-effect";
 
 interface ButtonProps {
     input: string;
@@ -85,3 +86,16 @@ export const Transition: React.FC<TransitionProps> = ({ id, input }) => {
         </div>
     );
 };
+
+export const TypewriterEffect = () =>{
+    return (
+        <>
+    <Typewriter options={{
+    strings:["Full Stack Developer"],
+    autoStart:true,
+    loop:true
+   }} 
+   />
+        </>
+    )
+}
