@@ -7,8 +7,9 @@ export const Col2 = () => {
     const buttons1 = ["React", "Express", "MongoDB Atlas", "Node.js", "JavaScript", "Tailwind CSS", "Vercel", "PayPal API" ];
     const buttons2 = ["TypeScript", "React", "Hono", "Postgresql", "Prisma ORM", "Tailwind CSS","Vercel", "Cloudflare workers"];
     const buttons3 = ["React", "Express", "MongoDB Atlas", "Node.js", "JavaScript", "Tailwind CSS", "Vercel"];
-    const buttons4 = ["React", "Tailwind CSS", "Vercel"];
-    const buttons5 = ["React", "Tailwind CSS", "TypeScript", "Vercel"];
+    const buttons4 = ["React", "Tailwind CSS", "TypeScript", "Vercel"];
+    const buttons5 = ["React", "Tailwind CSS", "Vercel"];
+    const buttons6 = ["React", "Tailwind CSS", "TypeScript", "Vercel"];
     
     interface Icon {
         src: string;
@@ -80,6 +81,14 @@ export const Col2 = () => {
                     title="Payze - Online payment web application"
                     description="It is an online payment web application in MERN Stack where users can send payment to each other with virtual money."
                     buttons={buttons3}
+                />
+
+                <ProjectCard
+                    liveLink="https://tva-version-portfolio.vercel.app/"
+                    image="/tva-portfolio.png"
+                    title="TVA Based Portfolio"
+                    description="Develop a fully responsive and visually portfolio inspired by the theme TVA of Loki Season 2."
+                    buttons={buttons4}
                 />
 
                 <ProjectCard
