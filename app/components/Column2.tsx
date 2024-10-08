@@ -4,12 +4,11 @@ import { Span } from "./Units";
 import Image from "next/image";
 
 export const Col2 = () => {
-    const buttons1 = ["React", "Express", "MongoDB Atlas", "Node.js", "JavaScript", "Tailwind CSS", "Vercel", "PayPal API" ];
-    const buttons2 = ["TypeScript", "React", "Hono", "Postgresql", "Prisma ORM", "Tailwind CSS","Vercel", "Cloudflare workers"];
-    const buttons3 = ["React", "Express", "MongoDB Atlas", "Node.js", "JavaScript", "Tailwind CSS", "Vercel"];
-    const buttons4 = ["React", "Tailwind CSS", "TypeScript", "Vercel"];
-    const buttons5 = ["React", "Tailwind CSS", "Vercel"];
-    const buttons6 = ["React", "Tailwind CSS", "TypeScript", "Vercel"];
+    const buttons1 = ["TypeScript", "React", "Express", "Node.js", "Postgresql", "Prisma ORM", "Tailwind CSS", "Vercel"];
+    const buttons2 = ["React", "Express", "MongoDB Atlas", "Node.js", "JavaScript", "Tailwind CSS", "Vercel", "PayPal API" ];
+    const buttons3 = ["TypeScript", "React", "Hono", "Postgresql", "Prisma ORM", "Tailwind CSS","Vercel", "Cloudflare workers"];
+    const buttons4 = ["React", "Express", "MongoDB Atlas", "Node.js", "JavaScript", "Tailwind CSS", "Vercel"];
+    const buttons5 = ["React", "Tailwind CSS", "TypeScript", "Vercel"];
     
     interface Icon {
         src: string;
@@ -59,12 +58,21 @@ export const Col2 = () => {
             </div>
 
             <div id="projects" className="mt-24">
+
+            <ProjectCard
+                    liveLink="https://testimonialss.vercel.app/"
+                    image="/testimonialss.png"
+                    title="Testimonialss - Display User Feedback Seamlessly"
+                    description="A responsive testimonial wall built with React and Prisma, allowing businesses to showcase customer feedback dynamically. Users can leave reviews, and administrators can easily manage testimonials. Features include a customizable embedded widget, like functionality."
+                    buttons={buttons1}
+                />
+                
                 <ProjectCard
                     liveLink="https://hyperdev.vercel.app"
                     image="/hyperdev.png"
                     title="HyperDev - Course selling web application"
                     description="It is a Full Stack responsive web application in MERN Stack with PayPal Payment Gateway, where Admin can perform CRUD operation and user can pay and buy courses."
-                    buttons={buttons1}
+                    buttons={buttons2}
                 />
                 
                 <ProjectCard
@@ -72,7 +80,7 @@ export const Col2 = () => {
                     image="/mediumm.png"
                     title="Mediumm - Blogging web application"
                     description="Develop a full-stack responsive web app where authenticated users can create and update blog posts with descriptions."
-                    buttons={buttons2}
+                    buttons={buttons3}
                 />
                 
                 <ProjectCard
@@ -80,7 +88,7 @@ export const Col2 = () => {
                     image="/payze.png"
                     title="Payze - Online payment web application"
                     description="It is an online payment web application in MERN Stack where users can send payment to each other with virtual money."
-                    buttons={buttons3}
+                    buttons={buttons4}
                 />
 
                 <ProjectCard
@@ -88,7 +96,7 @@ export const Col2 = () => {
                     image="/tva-portfolio.png"
                     title="TVA Based Portfolio"
                     description="Develop a fully responsive and visually portfolio inspired by the theme TVA of Loki Season 2."
-                    buttons={buttons4}
+                    buttons={buttons5}
                 />
 
                 <ProjectCard
@@ -96,14 +104,6 @@ export const Col2 = () => {
                     image="/zenskar.png"
                     title="Zenskar landing page"
                     description="Develop a fully responsive and visually appealing landing page for Zenskar.com, optimized for all devices."
-                    buttons={buttons4}
-                />
-
-                <ProjectCard
-                    liveLink="https://testimonial-ui-delta.vercel.app/"
-                    image="/testimonial.png"
-                    title="Testimonial landing page"
-                    description="Develop a fully responsive and visually appealing landing page for testimonial.to, optimized for all devices."
                     buttons={buttons5}
                 />
 
