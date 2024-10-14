@@ -36,7 +36,7 @@ export const Col2 = () => {
     return (
         <div className="font-mono mx-4 md:mr-36 ">
             <div id="about" className="mt-24 text-slate-400">
-                I&apos;m a passionate and dedicated developer. My expertise lies in the <Span input="MERN stack"/>, <Span input="TypeScript"/>, and <Span input="PostgreSQL" />. With a strong foundation in these technologies, I have successfully built three full-stack projects, showcasing my ability to develop robust and scalable web applications.
+                I&apos;m a passionate and dedicated developer. My expertise lies in the <Span input="MERN stack"/>, <Span input="TypeScript"/>, and <Span input="PostgreSQL" />. With a strong foundation in these technologies, I have successfully built several full-stack projects, showcasing my ability to develop robust and scalable web applications.
                 <br /><br />
                 I thrive on solving complex problems and continuously improving my skills. My journey in web development has equipped me with the knowledge and experience to create efficient and user-friendly solutions. I am always eager to learn new technologies and take on challenging projects.
                 <br /><br />
