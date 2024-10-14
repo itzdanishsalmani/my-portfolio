@@ -53,7 +53,7 @@ export const Col2 = () => {
 
             <div className="mt-24 flex space-x-2 cursor-pointer text-white hover:text-emerald-600">
                 <div>
-                <a href="https://drive.google.com/file/d/1GUlB5YCQHwWWmlMQgsGADDDoSiM_28Nx/view?usp=sharing" target="_blank"> View Full Resume </a></div>
+                <a href="https://drive.google.com/file/d/1K-0PYEHr0C3TYW_M2iPI0S2kEBEQQvaA/view?usp=sharing" target="_blank"> View Full Resume </a></div>
                 <div> <Image src={"arrow_north_east.svg"} alt="arrow" height={20} width={20} /> </div>
             </div>
 
