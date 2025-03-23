@@ -15,7 +15,7 @@ export const Col2 = () => {
         alt: string;
     }
     const icons: Icon[] = [
-        { src: "nextjs-icon.svg", alt: "Next.js" },        
+        // { src: "nextjs-icon.svg", alt: "Next.js" },        
         { src: "typescript-icon.svg", alt: "TypeScript" },
         { src: "javascript.svg", alt: "JavaScript" },
         { src: "react.svg", alt: "React" },
@@ -36,7 +36,7 @@ export const Col2 = () => {
     return (
         <div className="font-mono mx-4 md:mr-36 ">
             <div id="about" className="mt-24 text-slate-400">
-                I&apos;m a passionate and dedicated developer. My expertise lies in the <Span input="MERN stack"/>, <Span input="TypeScript"/>, and <Span input="PostgreSQL" />. With a strong foundation in these technologies, I have successfully built several full-stack projects, showcasing my ability to develop robust and scalable web applications.
+                I&apos;m a passionate and dedicated developer. My expertise lies in the <Span input="MERN stack"/>, <Span input="TypeScript"/>, and <Span input="React native" />. With a strong foundation in these technologies, I have successfully built several full-stack projects, showcasing my ability to develop robust and scalable web and mobile applications.
                 <br /><br />
                 I thrive on solving complex problems and continuously improving my skills. My journey in web development has equipped me with the knowledge and experience to create efficient and user-friendly solutions. I am always eager to learn new technologies and take on challenging projects.
                 <br /><br />
@@ -53,7 +53,7 @@ export const Col2 = () => {
 
             <div className="mt-24 flex space-x-2 cursor-pointer text-white hover:text-emerald-600">
                 <div>
-                <a href="https://drive.google.com/file/d/1K-0PYEHr0C3TYW_M2iPI0S2kEBEQQvaA/view?usp=sharing" target="_blank"> View Full Resume </a></div>
+                <a href="https://drive.google.com/file/d/1pAsjfdJXZGJfqBzZJD-jLQlyi6J7U99M/view?usp=sharing" target="_blank"> View Full Resume </a></div>
                 <div> <Image src={"arrow_north_east.svg"} alt="arrow" height={20} width={20} /> </div>
             </div>
 
@@ -110,7 +110,7 @@ export const Col2 = () => {
             </div>
 
             <div className="my-24 text-slate-400 text-sm">
-                Coded in <a href="https://code.visualstudio.com/"><Span input="Visual Studio Code"/></a> by yours truly. Built with <a href="https://nextjs.org/"><Span input="Next.js"/></a> and <a href="https://tailwindcss.com/"><Span input="Tailwind CSS"/></a>, deployed with <a href="https://vercel.com/"><span className="text-slate-300">Vercel.</span></a>
+                Coded in <a href="https://code.visualstudio.com/"><Span input="Visual Studio Code"/></a> by yours truly. Built with <a href="https://react.dev/"><Span input="React.js"/></a> and <a href="https://tailwindcss.com/"><Span input="Tailwind CSS"/></a>, deployed with <a href="https://vercel.com/"><span className="text-slate-300">Vercel.</span></a>
             </div>
         </div>
     );
