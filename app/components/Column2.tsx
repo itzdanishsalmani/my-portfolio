@@ -5,11 +5,11 @@ import Image from "next/image";
 
 export const Col2 = () => {
     const buttons1 = ["TypeScript", "React", "Express", "Node.js", "Postgresql", "Prisma ORM", "Tailwind CSS", "Vercel"];
-    const buttons2 = ["React", "Express", "MongoDB Atlas", "Node.js", "JavaScript", "Tailwind CSS", "Vercel", "PayPal API" ];
-    const buttons3 = ["TypeScript", "React", "Hono", "Postgresql", "Prisma ORM", "Tailwind CSS","Vercel", "Cloudflare workers"];
+    const buttons2 = ["React", "Express", "MongoDB Atlas", "Node.js", "JavaScript", "Tailwind CSS", "Vercel", "PayPal API"];
+    const buttons3 = ["TypeScript", "React", "Hono", "Postgresql", "Prisma ORM", "Tailwind CSS", "Vercel", "Cloudflare workers"];
     const buttons4 = ["React", "Express", "MongoDB Atlas", "Node.js", "JavaScript", "Tailwind CSS", "Vercel"];
     const buttons5 = ["React", "Tailwind CSS", "TypeScript", "Vercel"];
-    
+
     interface Icon {
         src: string;
         alt: string;
@@ -29,19 +29,19 @@ export const Col2 = () => {
 
         { src: "git-icon.svg", alt: "Git" },
         { src: "/github.svg", alt: "GitHub" },
-        { src: "tailwindcss-icon.svg", alt: "Tailwind CSS" },        
+        { src: "tailwindcss-icon.svg", alt: "Tailwind CSS" },
         { src: "html-5.svg", alt: "HTML5" },
         { src: "css-3.svg", alt: "CSS3" },
     ];
     return (
         <div className="font-mono mx-4 md:mr-36 ">
             <div id="about" className="mt-24 text-slate-400">
-                I&apos;m a passionate and dedicated developer. My expertise lies in the <Span input="MERN stack"/>, <Span input="TypeScript"/>, and <Span input="JavaScript" />. With a strong foundation in these technologies, I have successfully built several full-stack projects, showcasing my ability to develop robust and scalable web applications.
-                <br /><br />
-                I thrive on solving complex problems and continuously improving my skills. My journey in web development has equipped me with the knowledge and experience to create efficient and user-friendly solutions. I am always eager to learn new technologies and take on challenging projects.
-                <br /><br />
-                Whether it&apos;s developing dynamic front-end interfaces or designing efficient back-end architectures, I bring a meticulous and innovative approach to my work. I am committed to delivering high-quality code and collaborating effectively with teams to achieve project goals.
-            </div>
+                I&apos;m a Frontend and Mobile Developer with hands-on experience building production-grade web and Android
+                applications from scratch in startup environments. Shipped 2 Android applications live on the Google Play
+                Store using React Native CLI and contributed across the full lifecycle — architecture, development, release,
+                and maintenance. Strong expertise in TypeScript, JavaScript, React, React Native, Node.js. Proven ability to
+                take ownership, ship fast, mentor peers, and deliver scalable, user-focused products across web and mobile
+                platforms. </div>
 
             <div id="skills" className="mt-24 p-4 rounded-lg hover:bg-slate-800">
                 <div className="grid grid-cols-5 items-center gap-4 cursor-pointer">
@@ -53,20 +53,24 @@ export const Col2 = () => {
 
             <div className="mt-24 flex space-x-2 cursor-pointer text-white hover:text-emerald-600">
                 <div>
-                <a href="https://drive.google.com/file/d/1oMw4uC00EdD7rXC4wzLOfvyCuCSxBgTg/view?usp=sharing" target="_blank"> View Full Resume </a></div>
+                    <a href="https://drive.google.com/file/d/1oMw4uC00EdD7rXC4wzLOfvyCuCSxBgTg/view?usp=sharing" target="_blank"> View Full Resume </a></div>
                 <div> <Image src={"arrow_north_east.svg"} alt="arrow" height={20} width={20} /> </div>
             </div>
 
-            <div id="projects" className="mt-24">
+            <div className="mt-10 flex space-x-2 cursor-pointer text-white hover:text-emerald-600">
+                Personal Projects
+            </div>
 
-            <ProjectCard
+            <div id="projects" className="space-y-12">
+
+                <ProjectCard
                     liveLink="https://testimonialss.vercel.app/"
                     image="/testimonialss.png"
                     title="Testimonialss - Display User Feedback Seamlessly"
                     description="A responsive testimonial wall built with React and Prisma, allowing businesses to showcase customer feedback dynamically. Users can leave reviews, and administrators can easily manage testimonials. Features include a customizable embedded widget, like functionality."
                     buttons={buttons1}
                 />
-                
+
                 <ProjectCard
                     liveLink="https://hyperdev.vercel.app"
                     image="/hyperdev.png"
@@ -74,7 +78,7 @@ export const Col2 = () => {
                     description="It is a Full Stack responsive web application in MERN Stack with PayPal Payment Gateway, where Admin can perform CRUD operation and user can pay and buy courses."
                     buttons={buttons2}
                 />
-                
+
                 <ProjectCard
                     liveLink="https://mediumm.vercel.app"
                     image="/mediumm.png"
@@ -82,7 +86,7 @@ export const Col2 = () => {
                     description="Develop a full-stack responsive web app where authenticated users can create and update blog posts with descriptions."
                     buttons={buttons3}
                 />
-                
+
                 <ProjectCard
                     liveLink="https://payze.vercel.app"
                     image="/payze.png"
@@ -110,7 +114,7 @@ export const Col2 = () => {
             </div>
 
             <div className="my-24 text-slate-400 text-sm">
-                Coded in <a href="https://code.visualstudio.com/"><Span input="Visual Studio Code"/></a> by yours truly. Built with <a href="https://react.dev/"><Span input="React.js"/></a> and <a href="https://tailwindcss.com/"><Span input="Tailwind CSS"/></a>, deployed with <a href="https://vercel.com/"><span className="text-slate-300">Vercel.</span></a>
+                Coded in <a href="https://code.visualstudio.com/"><Span input="Visual Studio Code" /></a> by yours truly. Built with <a href="https://react.dev/"><Span input="React.js" /></a> and <a href="https://tailwindcss.com/"><Span input="Tailwind CSS" /></a>, deployed with <a href="https://vercel.com/"><span className="text-slate-300">Vercel.</span></a>
             </div>
         </div>
     );

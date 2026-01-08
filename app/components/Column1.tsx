@@ -14,15 +14,13 @@ export const Col1 = () => {
                    <TypewriterEffect />
                    </div>
                 </div>
-                <div className="mt-4 text-slate-400">
-                    I build full stack applications
-                </div>
-                <div className="mt-24 text-slate-500 flex flex-col items-start">
+                
+                <div className="mt-40 text-slate-500 flex flex-col items-start">
                     <Transition input="ABOUT" id="#about" />
                     <Transition input="SKILLS" id="#skills" />
                     <Transition input="PROJECTS" id="#projects" />
                 </div>
-                <div className="mt-24 flex space-x-4">
+                <div className="mt-40 flex space-x-4">
                 
                 <Contact 
                     link="https://www.linkedin.com/in/mohammed-danish-salmani-ab2586258/"

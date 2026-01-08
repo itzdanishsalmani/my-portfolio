@@ -57,7 +57,7 @@ export const ProjectCard: React.FC<ProjectCardProps> = ({ liveLink, image, title
     return (
         <div>
             <a href={liveLink} target="_blank" rel="noopener noreferrer">
-                <div className="group hover:bg-slate-800 p-4 mt-12 cursor-pointer rounded-lg flex flex-col justify-center items-center md:flex-row md:items-start">
+                <div className="group hover:bg-slate-800 p-4 cursor-pointer rounded-lg flex flex-col justify-center items-center md:flex-row md:items-start">
                     <div className="w-3/4 items-center mr-4 mb-4 md:mb-0">
                         <Image src={image} alt={title} width={500} height={300} className="rounded-lg" />
                     </div>
@@ -91,9 +91,8 @@ export const TypewriterEffect = () =>{
     return (
         <>
     <Typewriter options={{
-    strings:["Full Stack Developer",
-    "Frontend Developer",
-    "Backend Developer"],
+    strings:["Mobile Developer",
+    "Frontend Developer"],
     autoStart:true,
     loop:true
    }} 
