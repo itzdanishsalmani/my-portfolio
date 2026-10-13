@@ -94,7 +94,6 @@ export const TypewriterEffect = () =>{
     strings:[
         "Mobile Developer",
         "Full Stack Developer",
-        "Frontend Developer"
     ],
     autoStart:true,
     loop:true

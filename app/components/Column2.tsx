@@ -15,19 +15,19 @@ export const Col2 = () => {
         alt: string;
     }
     const icons: Icon[] = [
-        // { src: "nextjs-icon.svg", alt: "Next.js" },        
+        { src: "expo-icon.svg", alt: "Expo" },
+        { src: "react.svg", alt: "React" },
         { src: "typescript-icon.svg", alt: "TypeScript" },
         { src: "javascript.svg", alt: "JavaScript" },
-        { src: "react.svg", alt: "React" },
+        { src: "nextjs-icon.svg", alt: "Next.js" },        
+        
         { src: "nodejs.svg", alt: "Node.js" },
-
         { src: "mongodb-icon.svg", alt: "MongoDB" },
         { src: "postgresql.svg", alt: "PostgreSQL" },
         { src: "docker-icon.svg", alt: "Docker" },
         { src: "prisma.svg", alt: "Prisma" },
+        
         { src: "aws.svg", alt: "AWS" },
-
-        { src: "git-icon.svg", alt: "Git" },
         { src: "/github.svg", alt: "GitHub" },
         { src: "tailwindcss-icon.svg", alt: "Tailwind CSS" },
         { src: "html-5.svg", alt: "HTML5" },
@@ -36,7 +36,7 @@ export const Col2 = () => {
     return (
         <div className="font-mono mx-4 md:mr-36 ">
             <div id="about" className="mt-24 text-slate-400">
-                I&apos;m a Mobile Developer and Full Stack Developer with hands-on experience building production-grade web and mobile
+                I&apos;m a Full Stack Developer & Mobile Developer with hands-on experience building production-grade web and mobile
                 applications from scratch in startup environments. Shipped 4 live on the Google Play Store / App Store using React
                 Native CLI / Expo and contributed across the full lifecycle — architecture, development, release, and maintenance.
                 Strong expertise in TypeScript, JavaScript, React, React Native, Node.js. Proven ability to take ownership, ship
