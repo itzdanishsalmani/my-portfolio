@@ -36,12 +36,12 @@ export const Col2 = () => {
     return (
         <div className="font-mono mx-4 md:mr-36 ">
             <div id="about" className="mt-24 text-slate-400">
-                I&apos;m a Frontend and Mobile Developer with hands-on experience building production-grade web and Android
-                applications from scratch in startup environments. Shipped 2 Android applications live on the Google Play
-                Store using React Native CLI and contributed across the full lifecycle — architecture, development, release,
-                and maintenance. Strong expertise in TypeScript, JavaScript, React, React Native, Node.js. Proven ability to
-                take ownership, ship fast, mentor peers, and deliver scalable, user-focused products across web and mobile
-                platforms. </div>
+                I&apos;m a Mobile Developer and Full Stack Developer with hands-on experience building production-grade web and mobile
+                applications from scratch in startup environments. Shipped 4 live on the Google Play Store / App Store using React
+                Native CLI / Expo and contributed across the full lifecycle — architecture, development, release, and maintenance.
+                Strong expertise in TypeScript, JavaScript, React, React Native, Node.js. Proven ability to take ownership, ship
+                fast, mentor peers, and deliver scalable, user-focused products across web and mobile platforms.
+            </div>
 
             <div id="skills" className="mt-24 p-4 rounded-lg hover:bg-slate-800">
                 <div className="grid grid-cols-5 items-center gap-4 cursor-pointer">

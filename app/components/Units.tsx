@@ -91,8 +91,11 @@ export const TypewriterEffect = () =>{
     return (
         <>
     <Typewriter options={{
-    strings:["Mobile Developer",
-    "Frontend Developer"],
+    strings:[
+        "Mobile Developer",
+        "Full Stack Developer",
+        "Frontend Developer"
+    ],
     autoStart:true,
     loop:true
    }} 
