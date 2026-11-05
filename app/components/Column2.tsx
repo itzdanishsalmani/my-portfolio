@@ -9,6 +9,7 @@ export const Col2 = () => {
     const buttons3 = ["TypeScript", "React", "Hono", "Postgresql", "Prisma ORM", "Tailwind CSS", "Vercel", "Cloudflare workers"];
     const buttons4 = ["React", "Express", "MongoDB Atlas", "Node.js", "JavaScript", "Tailwind CSS", "Vercel"];
     const buttons5 = ["React", "Tailwind CSS", "TypeScript", "Vercel"];
+    const buttons6 = ["React Native", "TypeScript", "Expo", "SQLite", "Node.js", "Express.js", "PostgreSQL", "Prisma", "Docker"];
 
     interface Icon {
         src: string;
@@ -70,8 +71,19 @@ export const Col2 = () => {
                     description="A responsive testimonial wall built with React and Prisma, allowing businesses to showcase customer feedback dynamically. Users can leave reviews, and administrators can easily manage testimonials. Features include a customizable embedded widget, like functionality."
                     buttons={buttons1}
                 />
+                 <ProjectCard
+                    liveLink="https://play.google.com/apps/testing/com.danishsalmani.spendsync"
+                    image="/testimonialss.png"
+                    title="SpendSync (Under Testing)"
+                    description="
+SpendSync is a personal expense-tracking application designed to simplify financial management by automatically tracking and categorizing transactions from bank SMS and notifications. It helps users monitor their spending habits, manage expenses, and gain insights into their financial activities through interactive charts and monthly summaries.
+The application also supports manual transaction entry, customizable expense categories, transaction history, and spending analytics, providing users with a simple and intuitive way to manage their finances.
+"
+                    buttons={buttons6}
+                /> 
 
-                <ProjectCard
+
+                {/* <ProjectCard
                     liveLink="https://hyperdev.vercel.app"
                     image="/hyperdev.png"
                     title="HyperDev - Course selling web application"
@@ -93,9 +105,9 @@ export const Col2 = () => {
                     title="Payze - Online payment web application"
                     description="It is an online payment web application in MERN Stack where users can send payment to each other with virtual money."
                     buttons={buttons4}
-                />
+                /> 
 
-                <ProjectCard
+                 <ProjectCard
                     liveLink="https://tva-version-portfolio.vercel.app/"
                     image="/tva-portfolio.png"
                     title="TVA Based Portfolio"
@@ -109,7 +121,7 @@ export const Col2 = () => {
                     title="Zenskar landing page"
                     description="Develop a fully responsive and visually appealing landing page for Zenskar.com, optimized for all devices."
                     buttons={buttons5}
-                />
+                /> */}
 
             </div>
 
