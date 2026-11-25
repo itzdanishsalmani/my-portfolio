@@ -8,10 +8,27 @@ const config: Config = {
   ],
   theme: {
     extend: {
-      backgroundImage: {
-        "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",
-        "gradient-conic":
-          "conic-gradient(from 180deg at 50% 50%, var(--tw-gradient-stops))",
+      colors: {
+        palette: {
+          navy: "#0B1354",
+          olive: "#38371B",
+          yellow: "#FBE676",
+          "yellow-heading": "#E5BF3B",
+          "yellow-light": "#FFF3A1",
+          cream: "#FEF9E1",
+          "cream-dark": "#F5EFCB",
+          "cream-card": "#FCF6D9",
+          "cream-border": "#E3DAB5",
+        },
+      },
+      boxShadow: {
+        retro: "2px 2px 0px #0B1354",
+        "retro-lg": "4px 4px 0px #0B1354",
+        "retro-hover": "3px 3px 0px #0B1354",
+        "retro-olive": "2px 2px 0px #38371B",
+      },
+      fontFamily: {
+        sans: ["var(--font-sans)", "system-ui", "sans-serif"],
       },
     },
   },

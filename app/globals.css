@@ -2,23 +2,39 @@
 @tailwind components;
 @tailwind utilities;
 
-
 :root {
-  --foreground-rgba:rgba(15,23,42);
+  --foreground-rgb: 56, 55, 27;
+  --background-rgb: 254, 249, 225;
 }
 
 body {
-  color: rgb(var(--foreground-rgb));
-  background: rgba(15,23,42); 
+  color: #38371B;
+  background-color: #FEF9E1;
+  overflow-x: hidden;
+  font-family: var(--font-sans), sans-serif;
+}
+
+/* Custom scrollbar matching palette */
+::-webkit-scrollbar {
+  width: 8px;
+}
+::-webkit-scrollbar-track {
+  background: #FEF9E1;
+}
+::-webkit-scrollbar-thumb {
+  background: #E5BF3B;
+  border-radius: 4px;
+}
+::-webkit-scrollbar-thumb:hover {
+  background: #38371B;
+}
+
+html {
+  scroll-behavior: smooth;
 }
 
 @layer utilities {
   .text-balance {
     text-wrap: balance;
   }
-}
-
-/* Smooth scrolling */
-html {
-  scroll-behavior: smooth;
 }
