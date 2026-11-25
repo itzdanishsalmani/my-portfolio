@@ -9,9 +9,9 @@ export const Hero = () => {
       <div className="grid grid-cols-1 md:grid-cols-12 gap-10 md:gap-8 items-center">
         {/* Left Column: Intro & Headline */}
         <div className="md:col-span-7 flex flex-col items-start space-y-4">
-          <span className="text-palette-olive font-semibold text-lg tracking-wide">
+          {/* <span className="text-palette-olive font-semibold text-lg tracking-wide">
             Hello, I&#39;m Danish,
-          </span>
+          </span> */}
 
           <h1 className="text-4xl sm:text-5xl md:text-6xl lg:text-7xl font-extrabold text-palette-navy tracking-tight leading-[1.06]">
             Full Stack &amp; <br />
